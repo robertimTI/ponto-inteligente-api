@@ -68,14 +68,21 @@
 			<artifactId>spring-security-test</artifactId>
 		</dependency>
 		<!-- Hibernate validator-->
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-validator</artifactId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+			<version>2.0.0.M5</version>
 		</dependency>
 		<!-- web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jdk8</artifactId>
+			<version>2.9.2</version>
 		</dependency>
 	</dependencies>
 
